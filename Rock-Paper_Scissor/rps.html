@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <audio id="win_audio">
+        <source src="audio/cute-character-wee-1-188162.mp3" type="audio/mp3">
+    </audio>
+    <audio id="lose_audio">
+        <source src="audio/negative_beeps-6008.mp3" type="audio/mp3">
+    </audio>
+    <audio id="tie_audio">
+        <source src="audio/mixkit-flute-alert-2307.wav" type="audio/mp3">
+    </audio>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="container">
+        <div class="circle" onclick="play('rock')"><img src="img/Rock.png"></div>
+        <div class="circle" onclick="play('paper')"><img src="img/Paper.png"></div>
+        <div class="circle" onclick="play('scissor')"><img src="img/Scissors.png"></div>
+    </div>
+    <div class="resultdiv"><input type="text" id="option"><input type="text" id="result"></div>
+</body>
+</html>

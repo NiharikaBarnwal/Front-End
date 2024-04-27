@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    cursor: default;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15rem;
+}
+.circle{
+    border: black;
+    margin: 5rem;
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.772);
+    position: relative;
+    background-color: rgb(236, 236, 236);
+    
+}
+.circle:hover{
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.resultdiv{
+    text-align: center;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+#result,
+#option{
+    text-align: center;
+    cursor: default;
+    border: 0;
+    outline: 0;
+    margin: 0.5rem;
+}
+#result{
+    font-size: xx-large;
+}
+#option{
+    font-size: x-large;
+}
