@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #3D6E7C;
+}
+header{
+    text-align: center;
+    cursor: default;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 20px;
+    height: 65vh;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 8vmin;
+    color: #B33032;
+    background-color: white;
+}
+.box:hover{
+    background-color: rgb(215, 231, 231);
+}
+.resultdiv{
+    text-align: center;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+#result{
+    text-align: center;
+    cursor: default;
+    border: 0 ;
+    outline: 0;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    background-color: #3D6E7C;
+}
+#restart{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #191D32;
+    font-size: 1.25rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}
+#restart:hover{
+    background-color: #121523;
+}
